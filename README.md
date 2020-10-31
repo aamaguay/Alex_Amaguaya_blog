@@ -1,19 +1,5 @@
-# Alex_Amaguaya_blog
+# Research Work
 
-# Ken_Portfolio
-Example data science portfolio
+# Network of Shared Administrators and their Relationship with Financial Performance in Companies of Ecuador: What is the effect of sharing Human Capital?
 
-# [Project 1: Data Science Salary Estimator](https://github.com/PlayingNumbers/ds_salary_proj) 
-* Created a tool that estimates data science salaries (MAE ~ $ 11K) to help data scientists negotiate their income when they get a job.
-* Scraped over 1000 job descriptions from glassdoor using python and selenium
-* Engineered features from the text of each job description to quantify the value companies put on python, excel, aws, and spark. 
-* Optimized Linear, Lasso, and Random Forest Regressors using GridsearchCV to reach the best model. 
-* Built a client facing API using flask 
-
-![](/images/positions_by_state.png)
-
-
-# [Project 2: Ball Image Classifier](https://github.com/PlayingNumbers/ball_image_classifier) 
-For this example project I built a ball classifier to identify balls from different sports. This could be useful for someone who is new to sports from a certain country. They could take a picture of a ball and an app could serve them some information about the history and rules of the game. This is the underlying model for building something with those capabilities. 
-
-I was able to get the model to predict the sport of the ball with 94% accuracy after minimal tuning. For most of the cases this would meet the need of an end user of the app. To get these results I used transfer learning on a CNN trained on resnet34. This created time efficiencies and solid results. 
+Information has always been a potential source of comparative advantage between companies, so knowing it in its entirety has become a necessity for decision makers. Today, there are tools such as Social Network Analysis, which may have a greater scope to know the impact of relationships between individuals. In this project, the effect of financial performance on sharing human capital and being a prominent company in the market is quantified. Likewise, communities in the industry were identified, using modularity as a measure of grouping between companies. With a sample of 9,070 signatures from Ecuador in 2018, indicators were proposed based on the history of administrators and the centrality measures of the graph theory. Income was chosen as the indicator that best represents financial performance. The results found showed that there is a considerable positive effect on financial performance when a company is prominent in the market. On the other hand, it is determined that there is a negative effect on financial performance by sharing human capital, when hiring a worker who works or worked in a company in the same sector, as well as in other sectors of the industry. Finally, it was found that the indicators that quantify connections with companies represent a valuable source of information for firms. 
